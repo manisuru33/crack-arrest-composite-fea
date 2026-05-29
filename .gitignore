@@ -1,0 +1,38 @@
+# Large ANSYS/ABAQUS files
+*.db
+*.rst
+*.out
+*.err
+*.emat
+*.esav
+*.esol
+*.erot
+*.evas
+*.evsw
+*.evdi
+*.evtp
+*.edef
+
+# Backup files
+*.bak
+*~
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node/npm
+node_modules/
+*.log

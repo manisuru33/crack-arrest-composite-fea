@@ -1,0 +1,102 @@
+================================================================================
+CRACK GEOMETRY SPECIFICATIONS FOR FEA STUDY
+Finite-Element Analysis of Crack Arrest Properties of Resin Toughened Composites
+Project Code: RP-3 | Phase: Phase-2
+================================================================================
+
+RECTANGULAR BOX COORDINATES (in meters)
+================================================================================
+
+Point 1:  (0,        5E-5)      = (0,        0.00005)
+Point 2:  (0.015,    5E-5)      = (0.015,    0.00005)
+Point 3:  (0.02,     0)         = (0.02,     0)
+Point 4:  (0.015,   -5E-5)      = (0.015,   -0.00005)
+Point 5:  (0,       -5E-5)      = (0,       -0.00005)
+Point 6:  (0,       -0.1)       = (0,       -0.1)
+Point 7:  (0.1,     -0.1)       = (0.1,     -0.1)
+Point 8:  (0.1,      0)         = (0.1,      0)
+Point 9:  (0.1,      0.1)       = (0.1,      0.1)
+Point 10: (0,        0.1)       = (0,        0.1)
+
+================================================================================
+CRACK SPECIFICATION
+================================================================================
+
+Crack Front Length:     1E-5 meters (0.01 mm)
+Crack Configuration:    One side of rectangular box
+Crack Type:             Mode-I (Opening mode)
+Crack Location:         Points 1-5 form the crack geometry
+
+
+================================================================================
+DOMAIN SPECIFICATION
+================================================================================
+
+Domain Type:            Rectangular box
+X-dimension (Length):   0.1 m
+Y-dimension (Height):   0.2 m (from -0.1 to 0.1)
+Z-dimension (Depth):    Variable (to be defined in CAD)
+
+Crack Location:         Centered at origin (x=0, y=0)
+Crack Height:           1E-4 m (0.1 mm) - from -5E-5 to 5E-5
+Crack Length:           0.02 m (20 mm)
+
+
+================================================================================
+MESH SPECIFICATIONS
+================================================================================
+
+Global Mesh Size:       0.2 mm (0.0002 m)
+Mesh Refinement Region: Crack tip vicinity
+Element Type:           Tetrahedral (3D Solid)
+Mesh Status:            Successfully refined
+
+Refinement Strategy:
+  - Radial mesh pattern around crack tip
+  - Progressive coarsening away from crack
+  - Fine mesh at singular point
+  - Convergence verified
+
+
+================================================================================
+BOUNDARY CONDITIONS
+================================================================================
+
+Fixed Boundary:         Left edge (x = 0)
+Loading Boundary:       Right edge (x = 0.1)
+Free Boundaries:        Top and bottom edges (y = ±0.1)
+
+Applied Loading:
+  - Tensile stress (σ₀) in Y-direction
+  - Dynamic loading up to 250/s strain rate
+  - Mode-I (Opening) loading condition
+
+
+================================================================================
+ANALYSIS PARAMETERS
+================================================================================
+
+Software:               ANSYS Workbench R17.2
+Analysis Type:          Nonlinear Implicit Dynamics
+Solution Scheme:        Implicit dynamics (no accumulated divergence)
+Fracture Parameter:     Dynamic J-integral per time step
+Material Model:         Composite with TTR
+
+
+================================================================================
+KEY DIMENSIONS
+================================================================================
+
+Characteristic length (L):     0.1 m
+Crack half-width:              5E-5 m (0.05 mm)
+Crack front length:            1E-5 m (0.01 mm)
+Maximum crack depth:           0.02 m (20 mm)
+Mesh element size:             0.0002 m (0.2 mm)
+
+
+================================================================================
+File Information:
+Created:    29-05-2026
+Project:    RP-3 Phase-2
+Institution: Amrita School of Engineering, Bengaluru
+================================================================================

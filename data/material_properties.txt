@@ -1,0 +1,156 @@
+================================================================================
+COMPOSITE MATERIAL PROPERTIES
+Finite-Element Analysis of Crack Arrest Properties of Resin Toughened Composites
+Project Code: RP-3 | Phase: Phase-2
+================================================================================
+
+RESIN MATRIX PROPERTIES
+================================================================================
+
+EPOXY RESIN (Primary Matrix)
+-----------------------------
+Property                        Value               Unit
+-----------------------------------------------
+Density                         1150 - 1210         kg/m³
+Young's Modulus (E)             3.0 - 3.6           GPa
+Poisson's Ratio (ν)             0.35 - 0.38         -
+Tensile Strength (σmax)         55 - 90             MPa
+Compressive Strength            100 - 150           MPa
+Shear Strength                  20 - 30             MPa
+Flexural Modulus                3.0 - 4.0           GPa
+Flexural Strength               70 - 120            MPa
+Glass Transition Temp (Tg)      115 - 135           °C
+
+Fracture Toughness (KIC):       1.0 - 1.5           MPa√m
+Critical Strain Energy Release
+Rate (GIC):                     0.5 - 1.5           kJ/m²
+
+
+FIBER REINFORCEMENT PROPERTIES
+================================================================================
+
+GLASS FIBER (E-type)
+--------------------
+Property                        Value               Unit
+-----------------------------------------------
+Density                         2500 - 2600         kg/m³
+Young's Modulus (E)             70 - 80             GPa
+Tensile Strength                2500 - 3500         MPa
+Shear Modulus (G)               28 - 32             GPa
+Diameter                        5 - 50              μm
+
+
+COMPOSITE LAMINA PROPERTIES (Glass Fiber - Epoxy)
+================================================================================
+
+LONGITUDINAL PROPERTIES (Fiber Direction: 0°)
+----------------------------------------------
+Tensile Modulus (E1)            40 - 50             GPa
+Tensile Strength (F1t)          1000 - 1500         MPa
+Compressive Modulus (E1c)       40 - 45             GPa
+Compressive Strength (F1c)      800 - 1200          MPa
+
+
+TRANSVERSE PROPERTIES (Perpendicular to Fiber: 90°)
+---------------------------------------------------
+Tensile Modulus (E2)            8 - 12              GPa
+Tensile Strength (F2t)          40 - 60             MPa
+Compressive Modulus (E2c)       8 - 12              GPa
+Compressive Strength (F2c)      100 - 150           MPa
+
+
+IN-PLANE SHEAR PROPERTIES
+-------------------------
+Shear Modulus (G12)             4 - 6               GPa
+Shear Strength (F12)            70 - 90             MPa
+
+
+INTERLAMINAR PROPERTIES
+-----------------------
+Interlaminar Tensile Strength   50 - 70             MPa
+Interlaminar Shear Strength
+  (Mode II - ILSS)              50 - 80             MPa
+Interlaminar Fracture Toughness
+  (Mode I - GIC)                1.0 - 2.0           kJ/m²
+  (Mode II - GIIC)              3.0 - 5.0           kJ/m²
+
+
+THROUGH-THICKNESS REINFORCEMENT (TTR) EFFECTS
+================================================================================
+
+Z-FIBER REINFORCEMENT
+---------------------
+Property                        Improvement         Unit
+-----------------------------------------------
+Mode I Fracture Toughness       +30 to +80          %
+Mode II Fracture Toughness      +40 to +100         %
+Impact Resistance               +50 to +150         %
+Compression After Impact (CAI)  +20 to +60          %
+Interlaminar Strength           +50 to +100         %
+
+
+FIBER VOLUME FRACTION
+=====================
+
+Typical Range                   55 - 65             %
+Z-fiber Volume (added)          1 - 3               %
+Matrix Volume                   35 - 45             %
+
+
+DYNAMIC LOADING PROPERTIES (High Strain Rate)
+================================================================================
+
+Dynamic Properties at 250/s strain rate:
+  Tensile Strength Increase      15 - 30             %
+  Shear Strength Increase        20 - 35             %
+  Fracture Toughness Change      -10 to +10          %
+
+
+THERMAL PROPERTIES
+================================================================================
+
+Coefficient of Linear Expansion (CTE)
+  Longitudinal (0°):            5 - 10              ppm/°C
+  Transverse (90°):             20 - 35             ppm/°C
+
+Glass Transition Temperature    120 - 160           °C
+Maximum Service Temperature     80 - 120            °C
+Decomposition Temperature       300 - 350           °C
+
+Thermal Conductivity
+  Longitudinal:                 0.6 - 0.8           W/m·K
+  Transverse:                   0.2 - 0.4           W/m·K
+
+
+MOISTURE ABSORPTION & ENVIRONMENTAL
+================================================================================
+
+Moisture Absorption             1.0 - 2.5           % at saturation
+Equilibrium Moisture Content    0.5 - 1.0           % at 65% RH
+Diffusion Coefficient           5E-8 - 1E-7         m²/s
+
+
+MATERIAL SELECTION CRITERIA FOR PROJECT
+================================================================================
+
+Chosen Material:                Glass Fiber / Epoxy Composite
+Reason:
+  ✓ Cost-effective
+  ✓ Well-characterized properties
+  ✓ Extensive literature available
+  ✓ Good fracture toughness baseline
+  ✓ Suitable for aerospace applications
+  ✓ Compatible with TTR methods
+
+TTR Method Selected:            Z-fiber pinning (for Phase-3 study)
+Expected Performance:
+  ✓ 30-80% Mode I fracture toughness improvement
+  ✓ 40-100% Mode II fracture toughness improvement
+  ✓ 50-150% impact resistance improvement
+
+
+File Information:
+Created:    29-05-2026
+Project:    RP-3 Phase-2
+Institution: Amrita School of Engineering, Bengaluru
+================================================================================
